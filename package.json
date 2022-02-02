@@ -1,0 +1,42 @@
+{
+  "name": "kilukru-node-js-mqtt-demo",
+  "version": "1.0.0",
+  "description": "Ce dépôt est le résultat de l'article : \"Démarrer avec Node.js et MQTT\". Vous pouvez le consulter sur [kilukru.dev](https://www.kilukru.dev/demarrer-avec-node-js-et-mqtt/)",
+  "main": "index.js",
+  "scripts": {
+    "start:publisher": "nodemon publisher.js",
+    "start:subscriber": "nodemon subscriber.js",
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write .",
+    "lint:check": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfreddagenais/kilukru-node-js-mqtt-demo.git"
+  },
+  "keywords": [
+    "Node.js",
+    "MQTT",
+    "Pub/Sub",
+    "IoT",
+    "message",
+    "transport"
+  ],
+  "author": "Alfred Dagenais <jesuis@alfreddagenais.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfreddagenais/kilukru-node-js-mqtt-demo/issues"
+  },
+  "homepage": "https://github.com/alfreddagenais/kilukru-node-js-mqtt-demo#readme",
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.28.0",
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "mqtt": "^4.3.4"
+  }
+}
